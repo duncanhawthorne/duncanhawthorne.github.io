@@ -33232,22 +33232,15 @@ A.a0l.prototype={
 $0(){$.a74.pop()},
 $S:0}
 A.a0r.prototype={
-$0(){var s,r,q,p,o=this.a
-o.z=o.Q=0
+$0(){var s,r,q=this.a
+q.z=q.Q=0
 s=J.BK(45,t.N)
 for(r=0;r<45;++r)s[r]=""
-o.y=s
-o.x=A.acR(4)
+q.y=s
+q.x=A.acR(4)
 $.Lq="o"
 B.b.sm($.kx,0)
-B.b.sm($.a73,0)
-q=o.x
-q[0]="scoff"
-q[1]="brunt"
-q[2]="chair"
-q[3]="table"
-for(q=o.y,p=0;p<25;++p)q[p]="maplewindyscourfightkebab"[p]
-o.z=5},
+B.b.sm($.a73,0)},
 $S:0}
 A.a0w.prototype={
 $0(){this.a.uk()},
