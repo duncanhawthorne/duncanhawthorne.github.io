@@ -56001,7 +56001,7 @@ return A.a8Z(s,A.alw(new A.C9(A.a([A.p6("You got "+q+" word"+p+": "+B.b.aY($.fV,
 $S:121}
 A.a0O.prototype={
 $1(a){var s=A.p6("infinitordle",null),r=B.h.h($.fV.length),q=$.fV.length===1?"":"s"
-q=A.p6("Solve 4 boards at once. As you solve each board, the target word for that board will be replaced with another word, and you will get one extra guess. Can you keep going forever and reach infinitordle?\n\nYou've got "+r+" word"+q+" so far. \n\nLose your progress and reset the infinitordle board?",null)
+q=A.p6("Solve 4 boards at once. \n\nWhen you solve a board, the target word will be changed, and you get an extra guess.\n\nCan you keep going forever and reach infinitordle?\n\nYou've got "+r+" word"+q+" so far. \n\nLose your progress and reset the infinitordle board?",null)
 return A.a8Z(A.a([A.abf(B.IE,new A.a0M(a)),A.abf(B.IF,new A.a0N(this.a,a))],t.E),q,s)},
 $S:121}
 A.a0M.prototype={
@@ -56074,16 +56074,18 @@ A.a0Q.prototype={
 $0(){this.a.uz()},
 $S:0}
 A.a0E.prototype={
-$2(a,b){var s,r,q,p,o,n=null,m=this.a,l=this.b,k=B.h.bE(b,5),j=B.b.aY(B.b.b7(m.y,B.h.cI(5*k),B.h.cI(5*(k+1))),"")
-if(m.Q===5){s=$.a7Y()
-r=(s&&B.b).u(s,j)}else r=!0
-s=A.a93(B.b.u($.fV,j)&&$.a4D[B.b.eN($.fV,j)]===l&&!0?B.bb:B.b2,2)
-q=A.kL(10)
-if(B.b.u($.a7t,l)&&k===m.z-1)p=B.bb
-else if(k===m.z)p=r?B.kH:B.qu
-else p=m.o8(l,k)?B.l:m.oe(b,l)
-o=m.y[b].toUpperCase()
-return A.a9_(A.a5O(A.p6(o,A.m8(n,n,m.o8(l,k)?B.l:B.k,n,n,n,n,n,n,n,n,n,n,B.b6,n,n,!0,n,n,n,n,n,B.ln,n,n)),B.kf),B.ai,new A.dV(p,n,s,q,n,n,B.av),B.b4,n)},
+$2(a,b){var s,r,q,p,o,n,m=null,l=this.a,k=this.b,j=B.h.bE(b,5),i=B.b.aY(B.b.b7(l.y,B.h.cI(5*j),B.h.cI(5*(j+1))),"")
+if(l.Q===5){s=$.a7Y()
+r=(s&&B.b).u(s,i)}else r=!0
+q=B.b.u($.fV,i)&&$.a4D[B.b.eN($.fV,i)]===k&&!0
+s=q?B.bb:B.b2
+s=A.a93(s,q?2:0)
+p=A.kL(10)
+if(B.b.u($.a7t,k)&&j===l.z-1)o=B.bb
+else if(j===l.z)o=r?B.kH:B.qu
+else o=l.o8(k,j)?B.l:l.oe(b,k)
+n=l.y[b].toUpperCase()
+return A.a9_(A.a5O(A.p6(n,A.m8(m,m,l.o8(k,j)?B.l:B.k,m,m,m,m,m,m,m,m,m,m,B.b6,m,m,!0,m,m,m,m,m,B.ln,m,m)),B.kf),B.ai,new A.dV(o,m,s,p,m,m,B.av),B.b4,m)},
 $S:69}
 A.a0K.prototype={
 $2(a,b){return this.a.Su(b)},
