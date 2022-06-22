@@ -48969,7 +48969,7 @@ $.a8w=s
 s=$.ale=i-s-2
 i=$.a3N
 r=1.5*i/10
-q=Math.min(r,Math.min(80,1.5*s*0.2/3))
+q=Math.min(r,Math.min(1/0,1.5*s*0.2/3))
 $.Jb=q
 q=$.alg=s-q*3
 p=q/8
@@ -48982,7 +48982,7 @@ n=(p-1)*8
 o=Math.min(80,Math.min((q-n)/p/8,(i-(o-1)*8)/o/5))
 $.a8z=o
 i=o*8*p
-if(q>i+n)$.Jb=Math.min(r,Math.min(80,(s-i+n)/3))}i=$.a8w
+if(q>i+n)$.Jb=Math.min(r,Math.min(1/0,(s-i+n)/3))}i=$.a8w
 s=k.QH()
 r=$.a1s()
 q=t.cl
