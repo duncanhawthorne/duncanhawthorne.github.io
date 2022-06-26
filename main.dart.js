@@ -15975,6 +15975,7 @@ l=J.ab($.eR,"infSuccessWords")
 $.cR=l==null?[]:l
 l=J.ab($.eR,"infSuccessBoardsMatchingWords")
 $.KL=l==null?[]:l}catch(h){A.a4S()}A.adb()
+A.KQ()
 A.ko()
 return A.U(null,r)}})
 return A.V($async$yq,r)},
@@ -50747,7 +50748,6 @@ av(){return new A.Gv(B.m)}}
 A.Gv.prototype={
 aO(){var s,r
 this.bv()
-A.KQ()
 A.a4S()
 A.yq()
 this.ae(new A.a0u())
