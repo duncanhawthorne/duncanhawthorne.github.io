@@ -54191,17 +54191,17 @@ r=1.5*m/10
 q=Math.min(r,Math.min(1/0,1.5*s*0.17/3))
 $.ML=q
 q=$.avQ=s-q*3
-p=q/8
+p=(q-8)/8/2
 $.avP=p
 o=(m-24)/4/5
 $.auY=o
-p=p>2*o?$.abq=2:$.abq=1
+p=p>o?$.abq=2:$.abq=1
 o=B.f.eK(4,p)
 n=(p-1)*8
 o=Math.min(1/0,Math.min((q-n)/p/8,(m-(o-1)*8)/o/5))
 $.MB=o
 m=o*8*p
-if(q>m+n)$.ML=Math.min(r,Math.min(1/0,(s-m+n)/3))}$.abk=Math.max(0.75,$.ML/($.a8s/10))
+if(q>m+n)$.ML=Math.min(r,Math.min(1/0,(s-m+n)/3))}$.abk=Math.max(0.5,$.ML/($.a8s/10))
 m=$.ab5
 s=this.Uy()
 return new A.w7(new A.rH(s,!0,new A.JI(m,null,1/0,m+0),m,null),A.avi(),null)},
@@ -59013,7 +59013,7 @@ $.a8s=-1
 $.ahN=-1
 $.avO=-1
 $.ML=-1
-$.ab5=56
+$.ab5=-1
 $.abk=-1
 $.cY="JoeBloggs"
 $.ahj=""
