@@ -54122,13 +54122,13 @@ A.MN(!1)
 A.a86()
 A.MH()
 A.nn()
-$.ra=$.ra+1
 $.aba.push(q.gI5())
 $.aba.push(q.gHV())
 s=$.N2()
 A.a3G(s,s.geM().hV(0,"states")).r5()
 q.aj(new A.a3o())
-for(s=t.P,r=0;r<10;++r)A.iH(new A.aE(1000*(1000*r)),new A.a3p(q),s)},
+for(s=t.P,r=0;r<10;++r){A.iH(new A.aE(1000*(1000*r)),new A.a3p(q),s)
+$.ra=$.ra+1}},
 I6(){this.aj(new A.a3w())},
 J(a,b){var s,r,q,p,o,n,m=t.w
 if($.a8q!==b.O(m).f.a.a||$.ahO!==b.O(m).f.a.b-b.O(m).f.f.b){$.a8q=b.O(m).f.a.a
