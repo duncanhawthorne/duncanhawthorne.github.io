@@ -54127,8 +54127,7 @@ $.aba.push(q.gHV())
 s=$.N2()
 A.a3G(s,s.geM().hV(0,"states")).r5()
 q.aj(new A.a3o())
-for(s=t.P,r=0;r<10;++r){A.iH(new A.aE(1000*(1000*r)),new A.a3p(q),s)
-$.ra=$.ra+1}},
+for(s=t.P,r=0;r<10;++r)A.iH(new A.aE(1000*(1000*r)),new A.a3p(q),s)},
 I6(){this.aj(new A.a3w())},
 J(a,b){var s,r,q,p,o,n,m=t.w
 if($.a8q!==b.O(m).f.a.a||$.ahO!==b.O(m).f.a.b-b.O(m).f.f.b){$.a8q=b.O(m).f.a.a
@@ -54182,7 +54181,8 @@ A.a3o.prototype={
 $0(){},
 $S:0}
 A.a3p.prototype={
-$0(){this.a.aj(new A.a3n())},
+$0(){this.a.aj(new A.a3n())
+$.ra=$.ra+1},
 $S:2}
 A.a3n.prototype={
 $0(){},
