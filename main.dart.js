@@ -17013,9 +17013,8 @@ $.cn=0
 $.ff=[]
 $.rb=A.ahn(4)
 A.abc()
-$.l5=$.l5+1
 if(a){A.il("Reset board called with instruction to save keys, and now saving keys")
-A.nr()}},
+A.nr()}else $.l5=$.l5+1},
 abc(){for(var s=0;s<40;++s)if(J.aT($.cO)-$.cn>B.f.bh(s,5))$.rg()[s]=0.5
 else $.rg()[s]=0},
 auD(a,b){if(b==="b")$.rg()[a]=0
