@@ -19514,8 +19514,9 @@ QN:function QN(a,b){this.a=a
 this.b=b},
 nU:function nU(a){this.a=a},
 QV:function QV(a){this.a=a},
-agM(a,b){return new A.rS(a)},
-rS:function rS(a){this.a=a},
+agM(a,b){return new A.rS(a,b)},
+rS:function rS(a,b){this.a=a
+this.b=b},
 au2(a,b){var s=new Uint8Array(0),r=$.amH().b
 if(!r.test(a))A.Z(A.dw(a,"method","Not a valid method"))
 r=t.N
@@ -61050,7 +61051,7 @@ n.BR(m,s,q,!1,!0,p,r)
 this.b.cl(0,n)},
 $S:141}
 A.QN.prototype={
-$1(a){this.a.nD(new A.rS("XMLHttpRequest error."),A.Hd())},
+$1(a){this.a.nD(new A.rS("XMLHttpRequest error.",this.b.b),A.Hd())},
 $S:141}
 A.nU.prototype={
 K6(){var s=new A.a6($.a0,t.aP),r=new A.aY(s,t.gI),q=new A.IP(new A.QV(r),new Uint8Array(1024))
@@ -61060,7 +61061,8 @@ A.QV.prototype={
 $1(a){return this.a.cl(0,new Uint8Array(A.qU(a)))},
 $S:414}
 A.rS.prototype={
-j(a){return this.a},
+j(a){var s=this.b.j(0)
+return"ClientException: "+this.a+", uri="+s},
 $ibC:1}
 A.a05.prototype={}
 A.Gc.prototype={
