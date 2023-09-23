@@ -813,11 +813,11 @@ if(A.ajG(s)||A.aeA(s))return A.ajF(a)}return A.aiS(a)},
 aiS(a){var s=new A.uJ(a)
 s.PY(a)
 return s},
-ajF(a){var s=new A.wm(a,A.aA(["flutter",!0],t.N,t.y))
+ajF(a){var s=new A.wm(a,A.aA(["infinitordle",!0],t.N,t.y))
 s.Q3(a)
 return s},
 ajG(a){return t.f.b(a)&&J.e(J.aK(a,"origin"),!0)},
-aeA(a){return t.f.b(a)&&J.e(J.aK(a,"flutter"),!0)},
+aeA(a){return t.f.b(a)&&J.e(J.aK(a,"infinitordle"),!0)},
 ayv(a){var s,r,q=new A.YO(0),p=A.a([],t.oR)
 for(s=a.length;q.a<s;){r=A.alh(a,q,$.aoD())
 p.push(new A.iJ(r,r+A.alh(a,q,$.aoE())))}return p},
@@ -23822,7 +23822,7 @@ PY(a){var s,r=this,q=r.d
 if(q==null)return
 r.a=q.xl(r.gzG(r))
 if(!r.wb(r.gbv())){s=t.z
-q.ks(0,A.aA(["serialCount",0,"state",r.gbv()],s,s),"flutter",r.ghZ())}r.e=r.gvH()},
+q.ks(0,A.aA(["serialCount",0,"state",r.gbv()],s,s),"infinitordle",r.ghZ())}r.e=r.gvH()},
 gvH(){if(this.wb(this.gbv())){var s=this.gbv()
 s.toString
 return B.c.S(A.hy(J.aK(t.f.a(s),"serialCount")))}return 0},
@@ -23833,11 +23833,11 @@ r=this.e
 if(b){r===$&&A.d()
 s=A.aA(["serialCount",r,"state",c],s,s)
 a.toString
-q.ks(0,s,"flutter",a)}else{r===$&&A.d();++r
+q.ks(0,s,"infinitordle",a)}else{r===$&&A.d();++r
 this.e=r
 s=A.aA(["serialCount",r,"state",c],s,s)
 a.toString
-q.K_(0,s,"flutter",a)}}},
+q.K_(0,s,"infinitordle",a)}}},
 Bc(a){return this.pv(a,!1,null)},
 zH(a,b){var s,r,q,p,o=this
 if(!o.wb(b)){s=o.d
@@ -23845,7 +23845,7 @@ s.toString
 r=o.e
 r===$&&A.d()
 q=t.z
-s.ks(0,A.aA(["serialCount",r+1,"state",b],q,q),"flutter",o.ghZ())}o.e=o.gvH()
+s.ks(0,A.aA(["serialCount",r+1,"state",b],q,q),"infinitordle",o.ghZ())}o.e=o.gvH()
 s=$.aI()
 r=o.ghZ()
 t.Xx.a(b)
@@ -23867,7 +23867,7 @@ n.toString
 t.f.a(n)
 m=p.d
 m.toString
-m.ks(0,J.aK(n,"state"),"flutter",p.ghZ())
+m.ks(0,J.aK(n,"state"),"infinitordle",p.ghZ())
 case 1:return A.F(q,r)}})
 return A.G($async$hC,r)},
 gja(){return this.d}}
@@ -23896,8 +23896,8 @@ r.d.pn(0,-1)}},
 wM(a,b,c){var s
 if(b==null)b=this.ghZ()
 s=this.e
-if(c)a.ks(0,s,"flutter",b)
-else a.K_(0,s,"flutter",b)},
+if(c)a.ks(0,s,"infinitordle",b)
+else a.K_(0,s,"infinitordle",b)},
 Xp(a,b){return this.wM(a,b,!1)},
 Xo(a){return this.wM(a,null,!1)},
 hC(){var s=0,r=A.H(t.H),q,p=this,o,n
@@ -23910,7 +23910,7 @@ s=3
 return A.K(o.pn(0,-1),$async$hC)
 case 3:n=p.gbv()
 n.toString
-o.ks(0,J.aK(t.f.a(n),"state"),"flutter",p.ghZ())
+o.ks(0,J.aK(t.f.a(n),"state"),"infinitordle",p.ghZ())
 case 1:return A.F(q,r)}})
 return A.G($async$hC,r)},
 gja(){return this.d}}
