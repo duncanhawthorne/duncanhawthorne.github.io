@@ -65700,7 +65700,7 @@ A.Xv.prototype={
 cQ(){var s=0,r=A.E(t.H),q=this,p,o
 var $async$cQ=A.F(function(a,b){if(a===1)return A.B(b,r)
 while(true)switch(s){case 0:A.dF().$1("///// A gSignIn()")
-s=!$.afF()?2:3
+s=$.afF()?2:3
 break
 case 2:p=q.a
 s=4
