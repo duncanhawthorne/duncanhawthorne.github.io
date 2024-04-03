@@ -67385,6 +67385,7 @@ r.dy.sm(0,-1)
 r.fx.sm(0,0)
 r.go=A.x(s,s)
 r.id=A.x(s,s)
+r.k1.sm(0,!1)
 $.i8[0].$0()},
 uD(a){var s,r,q,p,o,n,m,l,k=this
 if(a!==" ")if(a==="<"){s=k.dx
@@ -67480,7 +67481,7 @@ s=$.ahJ()
 s.toString
 s.LH(J.aP(this.ay))}$.hl().i5()},
 N0(a){var s=this.dy
-if(s.k(0,a))s.sm(0,-1)
+if(s.gm(0)===a)s.sm(0,-1)
 else s.sm(0,a)},
 iV(a){var s,r,q,p,o=this,n=B.f.bp(a,5),m=B.f.bH(a,5)
 try{s=""
