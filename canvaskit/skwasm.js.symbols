@@ -9509,7 +9509,7 @@
 9508:paint_getStyle
 9509:paint_getStrokeJoin
 9510:paint_getStrokeCap
-9511:paint_getMiterLimit
+9511:paint_getMiterLImit
 9512:paint_getColorInt
 9513:paint_getAntiAlias
 9514:paint_dispose
