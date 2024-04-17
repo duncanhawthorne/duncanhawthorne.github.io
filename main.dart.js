@@ -21780,10 +21780,6 @@ f7(a){A.ahv().$1("///// A "+new A.de(Date.now(),!1).j(0)+" "+J.c6(a))},
 at5(a,b){var s=$.ak().dy
 if(s.gl(0)===-1||s.gl(0)===a||!$.am9().a3(0,b))return b
 else return $.am9().i(0,b)},
-asp(){var s=self,r=s.window.location.href
-A.ac(s.window.history,"replaceState",[s.window.history.state,"infinitordle",r])},
-asq(){var s=self,r=s.window.location.href
-A.ac(s.window.history,"pushState",[s.window.history.state,"infinitordle",r])},
 rX(a){var s=0,r=A.E(t.H)
 var $async$rX=A.F(function(b,c){if(b===1)return A.B(c,r)
 while(true)switch(s){case 0:s=2
@@ -23075,6 +23071,10 @@ if(q instanceof A.qo){s=q
 throw A.d(A.aCc("Invalid "+a+": "+s.a,s.b,J.amg(s)))}else if(t.bE.b(q)){r=q
 throw A.d(A.bG("Invalid "+a+' "'+b+'": '+J.awB(r),J.amg(r),J.awC(r)))}else throw p}},
 ay_(){return B.Ac},
+asp(){var s=self,r=s.window.location.href
+A.ac(s.window.history,"replaceState",[s.window.history.state,"infinitordle",r])},
+asq(){var s=self,r=s.window.location.href
+A.ac(s.window.history,"pushState",[s.window.history.state,"infinitordle",r])},
 mj(a,b){a=A.a2e(0,100,a)
 b=A.a2e(0,100,b)
 return A.aiF(A.mh(a),A.mh(b))},
@@ -37870,7 +37870,7 @@ while(true)switch(s){case 0:l=t.m.a(self)
 if(l.firebase_core!=null){s=1
 break}o=A.aW(l.flutterfire_web_sdk_version)
 if(o==null)o=null
-n=o==null?"10.8.1":o
+n=o==null?"10.10.0":o
 m=p.gXq()
 l=$.S6().gan(0)
 s=3
