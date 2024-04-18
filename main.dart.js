@@ -68018,7 +68018,8 @@ p=$.cx()
 o=A.aW(n.i(o,"gUserIcon"))
 p.c=o==null?"JoeBloggs":o
 p=$.cx()
-A.f7(A.a(["loadUser",p.b,p.c],t.s))
+o=p.c
+A.f7(A.a(["loadUser",p.b,o],t.s))
 return A.C(null,r)}})
 return A.D($async$uq,r)},
 k0(){var s=0,r=A.E(t.H),q,p
